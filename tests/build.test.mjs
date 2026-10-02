@@ -61,6 +61,24 @@ test('a clean checkout builds complete Spanish and English pages with original a
     assert.equal((html.match(/<h1>/g) || []).length, 1);
     assert.ok(html.includes('https://wa.me/8619569148825?text='));
     assert.ok(html.includes('class="skip-link"'));
+    assert.ok(html.includes('name="gulai-release" content="28"'));
+    assert.ok(html.includes('property="og:url" content="https://gulaisolar.com/' + language + '/"'));
+    assert.ok(html.includes('name="twitter:card" content="summary_large_image"'));
+    assert.equal((html.match(/class="catalog-link catalog-preview"/g) || []).length, 2);
+    const structured = JSON.parse(html.match(/<script type="application\/ld\+json">([^]*?)<\/script>/)[1]);
+    assert.equal(structured['@context'], 'https://schema.org');
+    const organization = structured['@graph'].find(item => item['@type'] === 'Organization');
+    assert.equal(organization.name, 'GULAI');
+    assert.equal(organization.brand.name, 'Gulivo');
+    assert.equal(organization.address.addressCountry, 'CN');
+    assert.equal(organization.contactPoint.telephone, '+86 195 6914 8825');
+    const page = structured['@graph'].find(item => item['@type'] === 'WebPage');
+    assert.equal(page.inLanguage, htmlLanguage);
+    assert.equal(page.url, `https://gulaisolar.com/${language}/`);
+    if (language === 'en') {
+      assert.ok(html.includes('Garden &amp; Post Lights'));
+      assert.ok(!html.includes('Garden &amp; Capital Lights'));
+    }
     assert.doesNotMatch(html, /\{\{[^}]+\}\}/);
     for (const [, reference] of html.matchAll(/(?:href|src|srcset)="([^" ]+)"/g)) {
       if (reference.startsWith('/assets/')) references.add(reference);
@@ -87,8 +105,34 @@ test('a clean checkout builds complete Spanish and English pages with original a
   for (const [name, checksum] of Object.entries(originalAssets)) {
     assert.equal(generatedAssets[name], checksum, `Changed original asset: ${name}`);
   }
+  const previews = JSON.parse(await readFile(path.join(dist, 'assets/previews/manifest.json'), 'utf8'));
+  assert.equal(previews.length, 4);
+  for (const preview of previews) {
+    assert.equal(originalAssets[preview.source], preview.sourceSha256);
+    assert.equal(originalAssets[preview.preview], preview.previewSha256);
+    assert.equal((await readFile(path.join(dist, 'assets', preview.preview))).length, preview.previewBytes);
+    assert.ok(preview.previewBytes < preview.sourceBytes * 0.35);
+    assert.equal(preview.sourcePages.length, preview.category === 'solar' ? 7 : 3);
+  }
   assert.match(await readFile(path.join(dist, 'robots.txt'), 'utf8'), /Sitemap: https:\/\/gulaisolar\.com\/sitemap\.xml/);
   assert.match(await readFile(path.join(dist, 'sitemap.xml'), 'utf8'), /https:\/\/gulaisolar\.com\/en\//);
+});
+
+test('a missing catalogue fails without discarding the last successful build', async () => {
+  expectSuccessfulBuild();
+  const dist = path.join(fixture, 'dist');
+  const expected = await fingerprint(dist);
+  const previewPath = path.join(fixture, 'public/assets/previews/solar-lighting-es-preview.pdf');
+  const original = await readFile(previewPath);
+  await rm(previewPath);
+  try {
+    const result = build();
+    assert.notEqual(result.status, 0);
+    assert.match(result.stderr, /solar-lighting-es-preview\.pdf/);
+    assert.deepEqual(await fingerprint(dist), expected);
+  } finally {
+    await writeFile(previewPath, original);
+  }
 });
 
 test('rebuilding is deterministic and removes stale generated output', async () => {

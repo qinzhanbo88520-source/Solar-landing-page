@@ -1,0 +1,70 @@
+[
+  {
+    "category": "solar",
+    "locale": "es",
+    "source": "solar-lighting-es.pdf",
+    "preview": "previews/solar-lighting-es-preview.pdf",
+    "sourcePages": [
+      1,
+      2,
+      5,
+      13,
+      28,
+      39,
+      45
+    ],
+    "sourceSha256": "89a43467e6bcf582224c5bef94ab000a7e67268c64a6992606434a20b476dc80",
+    "previewSha256": "37164f1f43e472fdfec30f0c42dc0fdac054ad4e9efe44c3560eeb6b49dbaf8e",
+    "sourceBytes": 8660820,
+    "previewBytes": 1215382
+  },
+  {
+    "category": "solar",
+    "locale": "en",
+    "source": "GULAI-Solar-Lighting-Catalogue-2026.pdf",
+    "preview": "previews/solar-lighting-en-preview.pdf",
+    "sourcePages": [
+      1,
+      2,
+      5,
+      13,
+      28,
+      39,
+      45
+    ],
+    "sourceSha256": "3025c292811d66bd48b41154b2842a6e5735b3c515139c8c1f61ea8c0c02c228",
+    "previewSha256": "61f4540dd3350b5af2695a638c7bf02642fec1ca60192ad119709528bfa9496b",
+    "sourceBytes": 5334064,
+    "previewBytes": 750433
+  },
+  {
+    "category": "storage",
+    "locale": "es",
+    "source": "energy-storage-es.pdf",
+    "preview": "previews/energy-storage-es-preview.pdf",
+    "sourcePages": [
+      1,
+      9,
+      16
+    ],
+    "sourceSha256": "808fda0cd27c8ab742b9bc93d6899c4457a88bb5d7b8e196f3ce06b015ae9d63",
+    "previewSha256": "d015fcff155701eec4976156d991ff7be110d8ecff516f918fb641425cff1888",
+    "sourceBytes": 8356384,
+    "previewBytes": 1251204
+  },
+  {
+    "category": "storage",
+    "locale": "en",
+    "source": "GULAI-Energy-Storage-Catalogue.pdf",
+    "preview": "previews/energy-storage-en-preview.pdf",
+    "sourcePages": [
+      1,
+      9,
+      16
+    ],
+    "sourceSha256": "66926c5a6528448bf9df12faa9c354742e9c9a6b7a410b438889a5293b7cf59a",
+    "previewSha256": "ec71c076bd0ad908f1dc8823c11ab27b4a5df2fda7d67473a89a8ad90d972374",
+    "sourceBytes": 10198620,
+    "previewBytes": 1415486
+  }
+]

@@ -5,7 +5,8 @@
   },
   "seo": {
     "title": "Solar Lighting & Energy Storage Manufacturer for Mexico | GULAI",
-    "description": "GULAI supplies solar street lights, solar flood lights and energy storage products to qualified importers and distributors in Mexico."
+    "description": "GULAI supplies solar street lights, solar flood lights and energy storage products to qualified importers and distributors in Mexico.",
+    "imageAlt": "Solar lighting and energy solutions supplied by GULAI for Mexico"
   },
   "topbar": {
     "message": "China manufacturer · Focused on qualified importers in Mexico"
@@ -43,7 +44,9 @@
     "heading2": "Energy storage.",
     "intro": "Explore both product lines and open each catalogue. If you already know the model or quantity you need, you can share them when you message us.",
     "categoryLabel": "Category",
-    "catalogueCta": "View catalogue",
+    "catalogueCta": "Full catalogue",
+    "previewCta": "Quick preview",
+    "pagesLabel": "pages",
     "note": "Catalogue images and model references are for product selection. Availability, detailed specifications, OEM/ODM options and compliance documents are subject to final order confirmation.",
     "categories": {
       "solar": {
@@ -54,7 +57,7 @@
           "flood": "Solar Flood Lights",
           "street": "Solar Street Lights",
           "wall": "Wall & Wash Lights",
-          "garden": "Garden & Capital Lights",
+          "garden": "Garden & Post Lights",
           "portable": "Portable & Emergency Lights",
           "table": "Solar Table Lights"
         }

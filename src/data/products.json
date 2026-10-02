@@ -11,6 +11,12 @@
         "en": "/assets/GULAI-Solar-Lighting-Catalogue-2026.pdf?v=20260926-no-contact",
         "es": "/assets/solar-lighting-es.pdf?v=20260926-es"
       },
+      "cataloguePreviews": {
+        "en": "/assets/previews/solar-lighting-en-preview.pdf",
+        "es": "/assets/previews/solar-lighting-es-preview.pdf"
+      },
+      "cataloguePages": 49,
+      "previewPages": 7,
       "familyKeys": [
         "products.categories.solar.families.flood",
         "products.categories.solar.families.street",
@@ -51,6 +57,12 @@
         "en": "/assets/GULAI-Energy-Storage-Catalogue.pdf",
         "es": "/assets/energy-storage-es.pdf?v=20260926-es"
       },
+      "cataloguePreviews": {
+        "en": "/assets/previews/energy-storage-en-preview.pdf",
+        "es": "/assets/previews/energy-storage-es-preview.pdf"
+      },
+      "cataloguePages": 18,
+      "previewPages": 3,
       "familyKeys": [
         "products.categories.storage.families.compact",
         "products.categories.storage.families.w600",

@@ -74,14 +74,19 @@ section{padding:100px 0;scroll-margin-top:82px}
 .category-actions{display:flex;flex-wrap:wrap;gap:.65rem}
 .category-top>div{min-width:0}
 .category-actions .nav-cta{max-width:100%;min-width:0;white-space:normal;text-align:center}
-.catalog-link{display:inline-flex;align-items:center;justify-content:center;gap:.45rem;padding:.66rem 1rem;border:1px solid #ffffff38;border-radius:9px;color:#f4f8fb;font-weight:700;background:#ffffff09;transition:.2s ease}
+.catalogue-options{display:grid;gap:.65rem;margin-top:1rem}
+.catalog-link{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:.15rem;padding:.7rem 1rem;border:1px solid #ffffff38;border-radius:9px;color:#f4f8fb;font-weight:700;background:#ffffff09;transition:.2s ease}
+.catalog-link small{font-size:.8rem;font-weight:400;color:#b4c6d5}
+.catalog-preview{border-color:#58ddd459;background:#58ddd40a}
 .catalog-link:hover{transform:translateY(-2px);border-color:var(--gold);color:var(--gold);background:#e9bd6810}
 .family-list{display:flex;flex-wrap:wrap;gap:.55rem}
 .family-list span{max-width:100%;border:1px solid #ffffff22;background:#ffffff08;border-radius:99px;padding:.36rem .7rem;font-size:.875rem;color:#c9d4de}
 .catalog-grid{display:grid;grid-template-columns:repeat(3,1fr);background:#ffffff16;gap:1px;border-top:1px solid #ffffff18}
 .catalog-item{background:#0a1624}
 .catalog-item img{width:100%;height:auto;display:block;object-fit:contain;filter:saturate(.9) contrast(1.03)}
-.catalog-item div{padding:1rem 1.2rem}
+.catalog-image{overflow:hidden}
+.catalog-item-landscape img{margin-top:-3.886%}
+.catalog-caption{padding:1rem 1.2rem}
 .catalog-item strong{display:block;font-family:Manrope;font-size:.98rem;color:#f3f7fa}
 .catalog-item small{display:block;font-size:.875rem;line-height:1.6;color:#a9b8c7}
 .category.storage{background:linear-gradient(145deg,#101d32,#07111e);border-color:#ffffff1f}
@@ -198,4 +203,10 @@ footer{background:#030811;color:#8498aa;padding:25px 0;font-size:.86rem;border-t
 @media(max-width:370px){
   .brand span{display:none}
   .hero{padding-top:calc(var(--mobile-header-height,72px) + 43px)}
+}
+@media(max-width:370px) and (max-height:700px){
+  .hero{align-items:flex-start;min-height:600px;padding-top:calc(var(--mobile-header-height,72px) + 32px)}
+  .hero h1{font-size:2.35rem;margin:.85rem 0 1rem}
+  .hero p{font-size:.98rem;margin-bottom:1.2rem}
+  .hero-note{margin-top:1.3rem}
 }

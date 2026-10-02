@@ -5,7 +5,8 @@
   },
   "seo": {
     "title": "Fabricante de Iluminación Solar para México | GULAI",
-    "description": "GULAI es fabricante en China de luminarias solares, reflectores solares y sistemas de almacenamiento de energía para importadores y distribuidores en México."
+    "description": "GULAI es fabricante en China de luminarias solares, reflectores solares y sistemas de almacenamiento de energía para importadores y distribuidores en México.",
+    "imageAlt": "Iluminación solar y soluciones de energía de GULAI para México"
   },
   "topbar": {
     "message": "Fabricante en China · Enfocados en importadores calificados en México"
@@ -43,7 +44,9 @@
     "heading2": "Almacenamiento de energía.",
     "intro": "Explore ambas líneas y abra el catálogo de cada una. Si ya conoce el modelo o la cantidad que busca, puede compartirlos al escribirnos.",
     "categoryLabel": "Categoría",
-    "catalogueCta": "Ver catálogo",
+    "catalogueCta": "Catálogo completo",
+    "previewCta": "Vista rápida",
+    "pagesLabel": "páginas",
     "note": "Las imágenes y referencias de los catálogos sirven para seleccionar productos. La disponibilidad, las especificaciones, las opciones OEM/ODM y los documentos de cumplimiento se confirman antes de cada pedido.",
     "categories": {
       "solar": {

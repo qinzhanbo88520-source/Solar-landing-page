@@ -74,6 +74,9 @@ async function main() {
         }
 
         if (width === 390) {
+          assert.equal(await page.locator('meta[name="gulai-release"]').getAttribute('content'), '28');
+          assert.equal(await page.locator('meta[property="og:url"]').getAttribute('content'), `https://gulaisolar.com/${language}/`);
+          assert.equal(await page.locator('.catalog-preview').count(), 2);
           const toggle = page.locator('.menu-toggle');
           const menu = page.locator('#mobile-menu');
           await toggle.click();
@@ -104,6 +107,24 @@ async function main() {
           assert.equal(new URL(page.url()).pathname, `/${otherLanguage}/`);
           assert.equal(new URL(page.url()).hash, '#products');
           results.interactions.push({ language, check: 'language switch retains section', status: 'passed' });
+        }
+        await page.close();
+      }
+    }
+
+    for (const language of ['es', 'en']) {
+      for (const viewport of [{ width: 320, height: 568 }, { width: 360, height: 640 }, { width: 390, height: 844 }]) {
+        const page = await browser.newPage({ viewport });
+        await page.goto(`${base}/${language}/`, { waitUntil: 'networkidle' });
+        await ready(page);
+        const button = await page.locator('.hero-actions .btn-primary').boundingBox();
+        assert.ok(button.y > 0 && button.y + button.height <= viewport.height,
+          `${language}/${viewport.width}x${viewport.height}: WhatsApp button below the first screen`);
+        assert.ok(button.height >= 44, 'The first WhatsApp action must be easy to tap');
+        assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1));
+        results.layouts.push({ language, ...viewport, firstScreenWhatsApp: true, status: 'passed' });
+        if (language === 'es' && viewport.width === 320) {
+          await page.screenshot({ path: path.join(outputDirectory, 'gulai-320-first-screen.png') });
         }
         await page.close();
       }
@@ -146,7 +167,7 @@ async function main() {
         cataloguePaths.add(href);
       }
     }
-    assert.equal(cataloguePaths.size, 4);
+    assert.equal(cataloguePaths.size, 8);
     for (const cataloguePath of cataloguePaths) {
       const response = await context.request.get(`${base}${cataloguePath}`);
       assert.equal(response.status(), 200);
