@@ -1,0 +1,213 @@
+{
+  "brand": {
+    "descriptor": "GULAI SOLAR LIGHTING MANUFACTURER",
+    "homeAria": "GULAI Solar Lighting Manufacturer home"
+  },
+  "seo": {
+    "title": "Solar Lighting & Energy Storage Manufacturer for Mexico | GULAI",
+    "description": "GULAI supplies solar street lights, solar flood lights and energy storage products to qualified importers and distributors in Mexico."
+  },
+  "topbar": {
+    "message": "China manufacturer · Focused on qualified importers in Mexico"
+  },
+  "nav": {
+    "products": "Products",
+    "about": "About",
+    "factory": "Factory",
+    "contact": "Contact us",
+    "language": "Choose language",
+    "mainNavigation": "Main navigation",
+    "skipContent": "Skip to main content",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu"
+  },
+  "hero": {
+    "kicker": "For the Mexico market",
+    "title": "Solar lighting for importers in Mexico.",
+    "copy": "Solar street lights, flood lights and energy storage supplied from China for distributors and project buyers in Mexico who can import directly.",
+    "primaryCta": "Chat on WhatsApp",
+    "secondaryCta": "View products",
+    "note": "Samples & trial orders · Small batches by model · OEM / ODM"
+  },
+  "about": {
+    "kicker": "Our operation",
+    "title": "Coordinated in Shenzhen. Produced in Guangdong.",
+    "copy": "GULAI coordinates orders from its Shenzhen headquarters and works with production facilities in Zhongshan and Huizhou. We focus on Mexican businesses able to import from China.",
+    "headquarters": "Headquarters",
+    "facility01": "Production facility 01",
+    "facility02": "Production facility 02"
+  },
+  "products": {
+    "kicker": "Our product portfolio",
+    "heading1": "Solar lighting.",
+    "heading2": "Energy storage.",
+    "intro": "Explore both product lines and open each catalogue. If you already know the model or quantity you need, you can share them when you message us.",
+    "categoryLabel": "Category",
+    "catalogueCta": "View catalogue",
+    "note": "Catalogue images and model references are for product selection. Availability, detailed specifications, OEM/ODM options and compliance documents are subject to final order confirmation.",
+    "categories": {
+      "solar": {
+        "title": "Solar Lighting",
+        "copy": "A broad outdoor lighting portfolio for importers, distributors, contractors and project buyers.",
+        "cta": "Ask about solar lights",
+        "families": {
+          "flood": "Solar Flood Lights",
+          "street": "Solar Street Lights",
+          "wall": "Wall & Wash Lights",
+          "garden": "Garden & Capital Lights",
+          "portable": "Portable & Emergency Lights",
+          "table": "Solar Table Lights"
+        }
+      },
+      "storage": {
+        "title": "Energy Storage",
+        "copy": "Portable power stations from compact everyday units to higher-capacity mobile energy systems.",
+        "cta": "Ask about energy storage",
+        "families": {
+          "compact": "Compact Portable Power",
+          "w600": "600W Series",
+          "w1200": "1200W Series",
+          "w1500": "1500W Series",
+          "w2000": "2000W Series",
+          "highCapacity": "High-capacity Systems"
+        }
+      }
+    },
+    "cards": {
+      "solarFlood": {
+        "name": "Solar Flood Lights",
+        "description": "GL series for residential, commercial and area lighting",
+        "alt": "GULAI solar flood light range"
+      },
+      "solarStreet": {
+        "name": "Solar Street Lights",
+        "description": "Road, community and outdoor project families",
+        "alt": "GULAI solar street light range"
+      },
+      "landscape": {
+        "name": "Landscape Lighting",
+        "description": "Garden, pathway and decorative solar lights",
+        "alt": "GULAI solar landscape lighting range"
+      },
+      "compact": {
+        "name": "Compact Series",
+        "description": "Portable power for everyday and backup use",
+        "alt": "Compact GULAI portable energy storage unit"
+      },
+      "portable": {
+        "name": "Portable Power Stations",
+        "description": "Multiple capacities, colors and output configurations",
+        "alt": "GULAI portable energy storage station"
+      },
+      "highCapacity": {
+        "name": "High-capacity Systems",
+        "description": "Mobile and larger-format power solutions",
+        "alt": "GULAI high-capacity energy storage system"
+      }
+    }
+  },
+  "cooperation": {
+    "kicker": "Mexico importer cooperation",
+    "title": "Options to test, order and customize.",
+    "copy": "Start with samples or a trial order, and ask about small batches, OEM / ODM and branded packaging. Options and quantities are confirmed for each model.",
+    "benefits": {
+      "lowMoq": {
+        "title": "Low MOQ options",
+        "copy": "Small-batch orders are welcome, with quantities confirmed according to the selected model."
+      },
+      "samples": {
+        "title": "Samples & trial orders",
+        "copy": "Evaluate product quality and market demand before placing a larger order."
+      },
+      "oem": {
+        "title": "OEM & ODM support",
+        "copy": "Discuss product specifications, appearance and market-specific requirements with our team."
+      },
+      "branding": {
+        "title": "Custom branding & packaging",
+        "copy": "Add your logo and customize labels, color boxes and cartons for your brand."
+      }
+    }
+  },
+  "factory": {
+    "kicker": "Factory strength",
+    "title": "Real production. Clear coordination.",
+    "copy": "These photographs show assembly, product testing, display and shipment preparation. Our Shenzhen team coordinates orders with production facilities in Zhongshan and Huizhou.",
+    "locationsAria": "Production facility locations",
+    "zhongshan": "Production facility · Zhongshan, Guangdong",
+    "huizhou": "Production facility · Huizhou, Guangdong",
+    "photos": {
+      "floor": {
+        "title": "Assembly floor",
+        "copy": "People and components on the workshop floor",
+        "alt": "Workers on a lighting assembly workshop floor"
+      },
+      "battery": {
+        "title": "Lighting assembly",
+        "copy": "Batteries and housings being prepared",
+        "alt": "Blue battery packs placed inside lighting housings on a workbench"
+      },
+      "light": {
+        "title": "Lighting preparation",
+        "copy": "Units arranged in the workshop",
+        "alt": "Rows of solar lighting units during assembly"
+      },
+      "aging": {
+        "title": "Testing area",
+        "copy": "Illuminated units under review",
+        "alt": "Illuminated lighting units on racks in the testing area"
+      },
+      "showroom": {
+        "title": "Product display",
+        "copy": "Lighting and energy models on show",
+        "alt": "Solar lights, flood lights and power stations on display"
+      },
+      "loading": {
+        "title": "Container loading",
+        "copy": "Cartons prepared beside the truck",
+        "alt": "Cartons and an open container during shipment preparation"
+      },
+      "packing": {
+        "title": "Packed orders",
+        "copy": "Cartons ready to load",
+        "alt": "Packed cartons beside an open shipping container"
+      }
+    },
+    "note": "Photographs provided by GULAI. Production, review and shipment arrangements depend on the model and order requirements."
+  },
+  "contact": {
+    "kicker": "Mexico importer enquiries",
+    "title": "Tell us what products you need.",
+    "copy": "Message us on WhatsApp about products, samples or orders. If you know the model and quantity, include them so we can give you a more useful response.",
+    "whatsappCta": "Contact via WhatsApp",
+    "emailCta": "Or send an email",
+    "companyLabel": "Company",
+    "primaryMarketLabel": "Primary market",
+    "primaryMarketValue": "Qualified importers, distributors and project buyers in Mexico",
+    "headquartersLabel": "Headquarters",
+    "headquartersValue": "Room 324, 3F, Zhongrun Yueshang, Fuwei, Bao'an District, Shenzhen, Guangdong, China",
+    "facilitiesLabel": "Production facilities",
+    "facility01": "Facility 01: Guzhen Town, Zhongshan, Guangdong, China",
+    "facility02": "Facility 02: Ma'an Town, Huizhou, Guangdong, China",
+    "emailLabel": "Email",
+    "wechatCopy": "Copy ID",
+    "wechatHint": "Add us by this ID in WeChat.",
+    "wechatCopied": "ID copied. Paste it into WeChat search.",
+    "wechatCopyFailed": "Copy the ID manually and search for it in WeChat."
+  },
+  "footer": {
+    "descriptor": "China-to-Mexico B2B supply"
+  },
+  "social": {
+    "linkedin": "Connect with GULAI on LinkedIn",
+    "facebook": "Follow GULAI on Facebook",
+    "instagram": "Follow GULAI on Instagram",
+    "tiktok": "Follow GULAI on TikTok"
+  },
+  "whatsapp": {
+    "hero": "Hello GULAI, I saw your website and am interested in your products for Mexico. Can we talk here?",
+    "solar": "Hello GULAI, I am interested in your solar lighting for Mexico. Can we talk here?",
+    "storage": "Hello GULAI, I am interested in your energy storage products for Mexico. Can we talk here?",
+    "contact": "Hello GULAI, I saw your website and would like to discuss your products for Mexico."
+  }
+}

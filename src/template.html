@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{seo.title}}</title>
+  <meta name="description" content="{{seo.description}}">
+  <link rel="canonical" href="{{canonical}}">
+  {{hreflang_html}}
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
+  <link rel="preload" as="image" href="/assets/solar-energy-hero.webp" media="(min-width: 821px)" fetchpriority="high">
+  <link rel="preload" as="image" href="/assets/solar-energy-hero-mobile.webp" media="(max-width: 820px)" fetchpriority="high">
+  <link rel="preload" as="font" href="/assets/fonts/dm-sans-latin.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="/assets/fonts/manrope-latin.woff2" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/site.css">
+  <script defer src="/assets/site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#home">{{nav.skipContent}}</a>
+  <div class="topbar">
+    <div class="wrap">
+      <span>{{topbar.message}}</span>
+      <span><a href="mailto:qinzhanbo885220@gmail.com">qinzhanbo885220@gmail.com</a></span>
+    </div>
+  </div>
+
+  <header data-header>
+    <nav class="wrap main-nav" aria-label="{{nav.mainNavigation}}">
+      <a class="brand" href="#home" aria-label="{{brand.homeAria}}">
+        <img class="brand-logo" src="/assets/gulivo-logo.webp" alt="Gulivo" width="58" height="58" decoding="async">
+        <span>{{brand.descriptor}}</span>
+      </a>
+
+      <div class="desktop-nav">
+        <a href="#products">{{nav.products}}</a>
+        <a href="#about">{{nav.about}}</a>
+        <a href="#factory">{{nav.factory}}</a>
+        <a href="#contact" class="nav-cta">{{nav.contact}}</a>
+      </div>
+
+      <div class="header-tools">
+        {{language_switch_html}}
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="{{nav.openMenu}}" data-open-label="{{nav.openMenu}}" data-close-label="{{nav.closeMenu}}">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <div class="wrap mobile-menu-inner">
+        <a href="#products">{{nav.products}}</a>
+        <a href="#about">{{nav.about}}</a>
+        <a href="#factory">{{nav.factory}}</a>
+        <a href="#contact" class="nav-cta">{{nav.contact}}</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="home" tabindex="-1">
+    <section class="hero">
+      <div class="wrap">
+        <div class="eyebrow">{{hero.kicker}}</div>
+        <h1>{{hero.title}}</h1>
+        <p>{{hero.copy}}</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="{{hero_whatsapp_url}}" target="_blank" rel="noopener">{{hero.primaryCta}}</a>
+          <a class="btn btn-ghost" href="#products">{{hero.secondaryCta}}</a>
+        </div>
+        <div class="hero-note"><span class="pulse"></span><span>{{hero.note}}</span></div>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="kicker">{{products.kicker}}</div>
+            <h2 class="section-title">{{products.heading1}}<br>{{products.heading2}}</h2>
+          </div>
+          <p>{{products.intro}}</p>
+        </div>
+        <div class="category-stack">{{products_html}}</div>
+        <p class="catalog-note">{{products.note}}</p>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap intro-grid">
+        <div>
+          <div class="kicker">{{about.kicker}}</div>
+          <h2 class="section-title">{{about.title}}</h2>
+        </div>
+        <div>
+          <p class="lead">{{about.copy}}</p>
+          <div class="facts">
+            <div class="fact"><strong>Shenzhen</strong><span>{{about.headquarters}}</span></div>
+            <div class="fact"><strong>Zhongshan</strong><span>{{about.facility01}}</span></div>
+            <div class="fact"><strong>Huizhou</strong><span>{{about.facility02}}</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="why">
+      <div class="wrap why-grid">
+        <div>
+          <div class="kicker">{{cooperation.kicker}}</div>
+          <h2 class="section-title">{{cooperation.title}}</h2>
+          <p class="lead">{{cooperation.copy}}</p>
+        </div>
+        <div class="benefits">
+          <div class="benefit"><span class="benefit-num">01</span><div><h3>{{cooperation.benefits.lowMoq.title}}</h3><p>{{cooperation.benefits.lowMoq.copy}}</p></div></div>
+          <div class="benefit"><span class="benefit-num">02</span><div><h3>{{cooperation.benefits.samples.title}}</h3><p>{{cooperation.benefits.samples.copy}}</p></div></div>
+          <div class="benefit"><span class="benefit-num">03</span><div><h3>{{cooperation.benefits.oem.title}}</h3><p>{{cooperation.benefits.oem.copy}}</p></div></div>
+          <div class="benefit"><span class="benefit-num">04</span><div><h3>{{cooperation.benefits.branding.title}}</h3><p>{{cooperation.benefits.branding.copy}}</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="factory" id="factory">
+      <div class="wrap">
+        <div class="factory-intro">
+          <div>
+            <div class="kicker">{{factory.kicker}}</div>
+            <h2 class="section-title">{{factory.title}}</h2>
+          </div>
+          <div>
+            <p class="lead">{{factory.copy}}</p>
+            <div class="factory-locations" aria-label="{{factory.locationsAria}}">
+              <span>{{factory.zhongshan}}</span>
+              <span>{{factory.huizhou}}</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="factory-gallery">
+          <figure class="factory-shot factory-shot-primary">
+            <picture><source media="(max-width: 820px)" srcset="/assets/workshop-assembly-mobile.webp"><img src="/assets/workshop-assembly-desktop.webp" alt="{{factory.photos.floor.alt}}" width="1200" height="500" loading="lazy" decoding="async"></picture>
+            <figcaption><strong>{{factory.photos.floor.title}}</strong><span>{{factory.photos.floor.copy}}</span></figcaption>
+          </figure>
+          <figure class="factory-shot">
+            <picture><source media="(max-width: 820px)" srcset="/assets/workshop-battery-assembly-mobile.webp"><img src="/assets/workshop-battery-assembly-desktop.webp" alt="{{factory.photos.battery.alt}}" width="900" height="720" loading="lazy" decoding="async"></picture>
+            <figcaption><strong>{{factory.photos.battery.title}}</strong><span>{{factory.photos.battery.copy}}</span></figcaption>
+          </figure>
+          <figure class="factory-shot">
+            <picture><source media="(max-width: 820px)" srcset="/assets/workshop-light-assembly-mobile.webp"><img src="/assets/workshop-light-assembly-desktop.webp" alt="{{factory.photos.light.alt}}" width="900" height="720" loading="lazy" decoding="async"></picture>
+            <figcaption><strong>{{factory.photos.light.title}}</strong><span>{{factory.photos.light.copy}}</span></figcaption>
+          </figure>
+          <figure class="factory-shot">
+            <picture><source media="(max-width: 820px)" srcset="/assets/light-aging-area-mobile.webp"><img src="/assets/light-aging-area-desktop.webp" alt="{{factory.photos.aging.alt}}" width="900" height="720" loading="lazy" decoding="async"></picture>
+            <figcaption><strong>{{factory.photos.aging.title}}</strong><span>{{factory.photos.aging.copy}}</span></figcaption>
+          </figure>
+          <figure class="factory-shot">
+            <picture><source media="(max-width: 820px)" srcset="/assets/product-display-mobile.webp"><img src="/assets/product-display-desktop.webp" alt="{{factory.photos.showroom.alt}}" width="900" height="720" loading="lazy" decoding="async"></picture>
+            <figcaption><strong>{{factory.photos.showroom.title}}</strong><span>{{factory.photos.showroom.copy}}</span></figcaption>
+          </figure>
+          <figure class="factory-shot">
+            <picture><source media="(max-width: 820px)" srcset="/assets/container-loading-mobile.webp"><img src="/assets/container-loading-desktop.webp" alt="{{factory.photos.loading.alt}}" width="900" height="720" loading="lazy" decoding="async"></picture>
+            <figcaption><strong>{{factory.photos.loading.title}}</strong><span>{{factory.photos.loading.copy}}</span></figcaption>
+          </figure>
+          <figure class="factory-shot">
+            <picture><source media="(max-width: 820px)" srcset="/assets/packed-shipment-mobile.webp"><img src="/assets/packed-shipment-desktop.webp" alt="{{factory.photos.packing.alt}}" width="900" height="720" loading="lazy" decoding="async"></picture>
+            <figcaption><strong>{{factory.photos.packing.title}}</strong><span>{{factory.photos.packing.copy}}</span></figcaption>
+          </figure>
+        </div>
+        <p class="factory-note">{{factory.note}}</p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <div class="contact-box">
+          <div class="contact-main">
+            <div class="kicker">{{contact.kicker}}</div>
+            <h2 class="section-title">{{contact.title}}</h2>
+            <p>{{contact.copy}}</p>
+            <div class="contact-actions">
+              <a class="btn" href="{{contact_whatsapp_url}}" target="_blank" rel="noopener"><span>{{contact.whatsappCta}}</span><span class="contact-number">+86 195 6914 8825</span></a>
+              <a class="contact-email-link" href="mailto:qinzhanbo885220@gmail.com">{{contact.emailCta}}</a>
+            </div>
+          </div>
+          <div class="contact-details">
+            <div class="detail"><span class="detail-label">{{contact.companyLabel}}</span>GULAI Solar Lighting Manufacturer</div>
+            <div class="detail"><span class="detail-label">{{contact.primaryMarketLabel}}</span>{{contact.primaryMarketValue}}</div>
+            <div class="detail"><span class="detail-label">{{contact.headquartersLabel}}</span>{{contact.headquartersValue}}</div>
+            <div class="detail"><span class="detail-label">{{contact.facilitiesLabel}}</span>{{contact.facility01}}<br>{{contact.facility02}}</div>
+            <div class="detail"><span class="detail-label">{{contact.emailLabel}}</span><a href="mailto:qinzhanbo885220@gmail.com">qinzhanbo885220@gmail.com</a><br><a href="mailto:qinzhanbo2@gmail.com">qinzhanbo2@gmail.com</a></div>
+            <div class="detail">
+              <span class="detail-label">WeChat</span>
+              <div class="wechat-row"><strong class="wechat-id">Skeke55</strong><button class="wechat-copy" type="button" data-copy-wechat="Skeke55" data-success="{{contact.wechatCopied}}" data-failure="{{contact.wechatCopyFailed}}" aria-describedby="wechat-status">{{contact.wechatCopy}}</button></div>
+              <span class="wechat-status" id="wechat-status" role="status">{{contact.wechatHint}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a class="whatsapp-dock" href="{{hero_whatsapp_url}}" target="_blank" rel="noopener" hidden>{{hero.primaryCta}}</a>
+
+  <footer>
+    <div class="wrap footer-row">
+      <div><strong>GULAI Solar Lighting Manufacturer</strong><span> · {{footer.descriptor}}</span></div>
+      <div class="social-links">
+        <a class="social-link" href="https://www.linkedin.com/in/gulaisolar" target="_blank" rel="noopener" aria-label="{{social.linkedin}}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V8.98h3.42v1.57h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.29ZM5.32 7.41a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.1 20.45H3.54V8.98H7.1v11.47Z"/></svg>LinkedIn</a>
+        <a class="social-link" href="https://www.facebook.com/profile.php?id=61593365322162" target="_blank" rel="noopener" aria-label="{{social.facebook}}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.03 1.79-4.7 4.53-4.7 1.31 0 2.68.24 2.68.24v2.96h-1.51c-1.49 0-1.96.93-1.96 1.89v2.27h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07Z"/></svg>Facebook</a>
+        <a class="social-link" href="https://www.instagram.com/qinqin9681/" target="_blank" rel="noopener" aria-label="{{social.instagram}}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 3.27.15 4.8 1.7 4.95 4.95.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.15 3.25-1.68 4.8-4.95 4.95-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-3.28-.15-4.8-1.7-4.95-4.95-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.15-3.26 1.68-4.8 4.95-4.95C8.42 2.17 8.8 2.16 12 2.16ZM12 0C8.74 0 8.33.01 7.05.07 2.69.27.27 2.69.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.2 4.36 2.62 6.78 6.98 6.98C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c4.35-.2 6.78-2.62 6.98-6.98.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95C23.73 2.7 21.31.27 16.95.07 15.67.01 15.26 0 12 0Zm0 5.84A6.16 6.16 0 1 0 12 18.16 6.16 6.16 0 0 0 12 5.84Zm0 10.16a4 4 0 1 1 0-8 4 4 0 0 1 0 8Zm6.41-11.85a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88Z"/></svg>Instagram</a>
+        <a class="social-link" href="https://www.tiktok.com/@gulaisolarfactory" target="_blank" rel="noopener" aria-label="{{social.tiktok}}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25h-3.29v13.2a2.75 2.75 0 1 1-2.75-2.75c.28 0 .55.04.81.12V9.65a6.1 6.1 0 1 0 5.23 6.04V9a8.1 8.1 0 0 0 4.77 1.53V7.25c-.35 0-.68-.2-1-.56Z"/></svg>TikTok</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

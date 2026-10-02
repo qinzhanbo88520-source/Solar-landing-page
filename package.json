@@ -1,0 +1,17 @@
+{
+  "name": "gulai-energy-site",
+  "version": "0.27.0",
+  "private": true,
+  "type": "module",
+  "description": "GULAI solar lighting and energy storage website for Mexico, in Spanish and English.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node src/build.mjs",
+    "dev": "npm run build && python3 -m http.server 4173 --bind 0.0.0.0 --directory dist",
+    "preview": "python3 -m http.server 4173 --bind 0.0.0.0 --directory dist",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "node tests/browser.cjs"
+  }
+}

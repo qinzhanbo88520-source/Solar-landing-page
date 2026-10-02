@@ -1,0 +1,84 @@
+{
+  "categories": [
+    {
+      "id": "solar",
+      "number": "01",
+      "titleKey": "products.categories.solar.title",
+      "copyKey": "products.categories.solar.copy",
+      "ctaKey": "products.categories.solar.cta",
+      "whatsappKey": "whatsapp.solar",
+      "catalogues": {
+        "en": "/assets/GULAI-Solar-Lighting-Catalogue-2026.pdf?v=20260926-no-contact",
+        "es": "/assets/solar-lighting-es.pdf?v=20260926-es"
+      },
+      "familyKeys": [
+        "products.categories.solar.families.flood",
+        "products.categories.solar.families.street",
+        "products.categories.solar.families.wall",
+        "products.categories.solar.families.garden",
+        "products.categories.solar.families.portable",
+        "products.categories.solar.families.table"
+      ],
+      "items": [
+        {
+          "id": "solarFlood",
+          "image": "/assets/solar-flood-range.webp",
+          "width": 1158,
+          "height": 579
+        },
+        {
+          "id": "solarStreet",
+          "image": "/assets/solar-street-range.webp",
+          "width": 1158,
+          "height": 579
+        },
+        {
+          "id": "landscape",
+          "image": "/assets/solar-garden-range.webp",
+          "width": 1158,
+          "height": 579
+        }
+      ]
+    },
+    {
+      "id": "storage",
+      "number": "02",
+      "titleKey": "products.categories.storage.title",
+      "copyKey": "products.categories.storage.copy",
+      "ctaKey": "products.categories.storage.cta",
+      "whatsappKey": "whatsapp.storage",
+      "catalogues": {
+        "en": "/assets/GULAI-Energy-Storage-Catalogue.pdf",
+        "es": "/assets/energy-storage-es.pdf?v=20260926-es"
+      },
+      "familyKeys": [
+        "products.categories.storage.families.compact",
+        "products.categories.storage.families.w600",
+        "products.categories.storage.families.w1200",
+        "products.categories.storage.families.w1500",
+        "products.categories.storage.families.w2000",
+        "products.categories.storage.families.highCapacity"
+      ],
+      "items": [
+        {
+          "id": "compact",
+          "image": "/assets/storage-compact.webp",
+          "width": 786,
+          "height": 579
+        },
+        {
+          "id": "portable",
+          "image": "/assets/storage-portable.webp",
+          "width": 786,
+          "height": 579
+        },
+        {
+          "id": "highCapacity",
+          "image": "/assets/storage-high-capacity.webp",
+          "width": 786,
+          "height": 579
+        }
+      ]
+    }
+  ]
+}

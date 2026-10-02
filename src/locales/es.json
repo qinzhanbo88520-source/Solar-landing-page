@@ -1,0 +1,213 @@
+{
+  "brand": {
+    "descriptor": "GULAI · FABRICANTE DE ILUMINACIÓN SOLAR",
+    "homeAria": "Inicio de GULAI, fabricante de iluminación solar"
+  },
+  "seo": {
+    "title": "Fabricante de Iluminación Solar para México | GULAI",
+    "description": "GULAI es fabricante en China de luminarias solares, reflectores solares y sistemas de almacenamiento de energía para importadores y distribuidores en México."
+  },
+  "topbar": {
+    "message": "Fabricante en China · Enfocados en importadores calificados en México"
+  },
+  "nav": {
+    "products": "Productos",
+    "about": "Nosotros",
+    "factory": "Fábrica",
+    "contact": "Contáctanos",
+    "language": "Seleccionar idioma",
+    "mainNavigation": "Navegación principal",
+    "skipContent": "Saltar al contenido principal",
+    "openMenu": "Abrir menú de navegación",
+    "closeMenu": "Cerrar menú de navegación"
+  },
+  "hero": {
+    "kicker": "Para el mercado mexicano",
+    "title": "Iluminación solar para importadores en México.",
+    "copy": "Luminarias solares para calle, reflectores y almacenamiento de energía. Suministro desde China para distribuidores y compradores de proyectos en México con capacidad de importación.",
+    "primaryCta": "Hablar por WhatsApp",
+    "secondaryCta": "Ver productos",
+    "note": "Muestras y pedidos de prueba · Lotes pequeños según modelo · OEM / ODM"
+  },
+  "about": {
+    "kicker": "Nuestra operación",
+    "title": "Coordinación desde Shenzhen. Producción en Guangdong.",
+    "copy": "GULAI coordina los pedidos desde su oficina central en Shenzhen y trabaja con plantas de producción en Zhongshan y Huizhou. Nos enfocamos en empresas mexicanas que pueden importar desde China.",
+    "headquarters": "Oficina central",
+    "facility01": "Planta de producción 01",
+    "facility02": "Planta de producción 02"
+  },
+  "products": {
+    "kicker": "Nuestro portafolio",
+    "heading1": "Iluminación solar.",
+    "heading2": "Almacenamiento de energía.",
+    "intro": "Explore ambas líneas y abra el catálogo de cada una. Si ya conoce el modelo o la cantidad que busca, puede compartirlos al escribirnos.",
+    "categoryLabel": "Categoría",
+    "catalogueCta": "Ver catálogo",
+    "note": "Las imágenes y referencias de los catálogos sirven para seleccionar productos. La disponibilidad, las especificaciones, las opciones OEM/ODM y los documentos de cumplimiento se confirman antes de cada pedido.",
+    "categories": {
+      "solar": {
+        "title": "Iluminación Solar",
+        "copy": "Portafolio de iluminación para exteriores dirigido a importadores, distribuidores, contratistas y compradores de proyectos.",
+        "cta": "Consultar iluminación solar",
+        "families": {
+          "flood": "Reflectores Solares",
+          "street": "Luminarias Solares para Calle",
+          "wall": "Luminarias de Pared y Bañadores de Luz",
+          "garden": "Luminarias Solares para Jardín y Postes",
+          "portable": "Lámparas Portátiles y de Emergencia",
+          "table": "Lámparas Solares de Mesa"
+        }
+      },
+      "storage": {
+        "title": "Almacenamiento de Energía",
+        "copy": "Estaciones de energía portátiles, desde equipos compactos de uso diario hasta sistemas móviles de mayor capacidad.",
+        "cta": "Consultar almacenamiento de energía",
+        "families": {
+          "compact": "Energía Portátil Compacta",
+          "w600": "Serie de 600 W",
+          "w1200": "Serie de 1200 W",
+          "w1500": "Serie de 1500 W",
+          "w2000": "Serie de 2000 W",
+          "highCapacity": "Sistemas de Alta Capacidad"
+        }
+      }
+    },
+    "cards": {
+      "solarFlood": {
+        "name": "Reflectores Solares",
+        "description": "Serie GL para iluminación residencial, comercial y de áreas exteriores",
+        "alt": "Línea de reflectores solares GULAI"
+      },
+      "solarStreet": {
+        "name": "Luminarias Solares para Calle",
+        "description": "Familias para vialidades, comunidades y proyectos exteriores",
+        "alt": "Línea de luminarias solares para calle GULAI"
+      },
+      "landscape": {
+        "name": "Iluminación Solar para Exteriores",
+        "description": "Iluminación solar para jardines, senderos y decoración",
+        "alt": "Línea de iluminación solar para exteriores GULAI"
+      },
+      "compact": {
+        "name": "Serie Compacta",
+        "description": "Energía portátil para uso diario y respaldo",
+        "alt": "Equipo compacto de almacenamiento de energía portátil GULAI"
+      },
+      "portable": {
+        "name": "Estaciones de Energía Portátiles",
+        "description": "Varias capacidades, colores y configuraciones de salida",
+        "alt": "Estación de energía portátil GULAI"
+      },
+      "highCapacity": {
+        "name": "Sistemas de Alta Capacidad",
+        "description": "Soluciones móviles y de mayor formato",
+        "alt": "Sistema de almacenamiento de energía de alta capacidad GULAI"
+      }
+    }
+  },
+  "cooperation": {
+    "kicker": "Cooperación con importadores en México",
+    "title": "Opciones para probar, comprar y personalizar.",
+    "copy": "Puede comenzar con muestras o un pedido de prueba y consultar lotes pequeños, servicio OEM / ODM y empaque con su marca. Las opciones y cantidades se confirman según el modelo.",
+    "benefits": {
+      "lowMoq": {
+        "title": "Opciones con pedido mínimo bajo",
+        "copy": "Aceptamos pedidos de lotes pequeños; la cantidad se confirma según el modelo seleccionado."
+      },
+      "samples": {
+        "title": "Muestras y pedidos de prueba",
+        "copy": "Evalúe la calidad del producto y la demanda del mercado antes de realizar un pedido mayor."
+      },
+      "oem": {
+        "title": "Servicio OEM / ODM",
+        "copy": "Consulte con nuestro equipo las especificaciones, la apariencia y los requisitos de su mercado."
+      },
+      "branding": {
+        "title": "Marca y empaque personalizados",
+        "copy": "Agregue su logotipo y personalice etiquetas, cajas de color y cajas de embarque para su marca."
+      }
+    }
+  },
+  "factory": {
+    "kicker": "Capacidad de fábrica",
+    "title": "Producción real. Coordinación clara.",
+    "copy": "Estas fotografías muestran áreas de ensamble, pruebas de funcionamiento, exhibición de productos y preparación de embarques. Nuestro equipo de Shenzhen coordina los pedidos con plantas en Zhongshan y Huizhou.",
+    "locationsAria": "Ubicación de las plantas de producción",
+    "zhongshan": "Planta de producción · Zhongshan, Guangdong",
+    "huizhou": "Planta de producción · Huizhou, Guangdong",
+    "photos": {
+      "floor": {
+        "title": "Área de ensamble",
+        "copy": "Personal y componentes en el taller",
+        "alt": "Personal trabajando en un taller de ensamble de luminarias"
+      },
+      "battery": {
+        "title": "Montaje de luminarias",
+        "copy": "Baterías y carcasas en preparación",
+        "alt": "Baterías azules instaladas en carcasas de luminarias sobre una mesa de trabajo"
+      },
+      "light": {
+        "title": "Preparación de luminarias",
+        "copy": "Unidades organizadas en el taller",
+        "alt": "Filas de luminarias solares en proceso de ensamble"
+      },
+      "aging": {
+        "title": "Área de pruebas",
+        "copy": "Luminarias encendidas para su revisión",
+        "alt": "Luminarias encendidas en estanterías del área de pruebas"
+      },
+      "showroom": {
+        "title": "Exhibición de productos",
+        "copy": "Modelos de iluminación y energía",
+        "alt": "Muestra de luminarias solares, reflectores y estaciones de energía"
+      },
+      "loading": {
+        "title": "Carga de contenedor",
+        "copy": "Mercancía preparada junto al transporte",
+        "alt": "Cajas y contenedor durante la preparación de un embarque"
+      },
+      "packing": {
+        "title": "Pedidos embalados",
+        "copy": "Cajas preparadas para su carga",
+        "alt": "Cajas embaladas junto a un contenedor de carga"
+      }
+    },
+    "note": "Fotografías proporcionadas por GULAI. Los procesos de producción, revisión y embarque dependen del modelo y de los requisitos del pedido."
+  },
+  "contact": {
+    "kicker": "Consultas de importadores en México",
+    "title": "Hablemos de los productos que busca.",
+    "copy": "Escríbanos por WhatsApp para consultar productos, muestras o pedidos. Si ya conoce el modelo y la cantidad, puede indicarlos para recibir una respuesta más precisa.",
+    "whatsappCta": "Contactar por WhatsApp",
+    "emailCta": "O enviar un correo electrónico",
+    "companyLabel": "Empresa",
+    "primaryMarketLabel": "Mercado principal",
+    "primaryMarketValue": "Importadores, distribuidores y compradores de proyectos calificados en México",
+    "headquartersLabel": "Oficina central",
+    "headquartersValue": "Oficina 324, tercer piso, Zhongrun Yueshang, Fuwei, distrito de Bao'an, Shenzhen, Guangdong, China",
+    "facilitiesLabel": "Plantas de producción",
+    "facility01": "Planta 01: Guzhen, Zhongshan, Guangdong, China",
+    "facility02": "Planta 02: Ma'an, Huizhou, Guangdong, China",
+    "emailLabel": "Correo electrónico",
+    "wechatCopy": "Copiar ID",
+    "wechatHint": "Agréguenos en WeChat con este ID.",
+    "wechatCopied": "ID copiado. Péguelo en la búsqueda de WeChat.",
+    "wechatCopyFailed": "Copie el ID manualmente y búsquelo en WeChat."
+  },
+  "footer": {
+    "descriptor": "Suministro B2B de China a México"
+  },
+  "social": {
+    "linkedin": "Conectar con GULAI en LinkedIn",
+    "facebook": "Seguir a GULAI en Facebook",
+    "instagram": "Seguir a GULAI en Instagram",
+    "tiktok": "Seguir a GULAI en TikTok"
+  },
+  "whatsapp": {
+    "hero": "Hola GULAI, vi su página web y me interesan sus productos para México. ¿Podemos hablar por aquí?",
+    "solar": "Hola GULAI, me interesa su iluminación solar para México. ¿Podemos hablar por aquí?",
+    "storage": "Hola GULAI, me interesa su línea de almacenamiento de energía para México. ¿Podemos hablar por aquí?",
+    "contact": "Hola GULAI, vi su página web y quisiera hablar sobre sus productos para México."
+  }
+}
